@@ -1,0 +1,403 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Love You Tithi ❤️</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 600px;
+        z-index: 2;
+    }
+
+    .heart {
+        font-size: 22vw;
+        color: red;
+        animation: heartbeat 1.5s infinite;
+        line-height: 1;
+    }
+
+    @keyframes heartbeat {
+        0% { transform: scale(1); }
+        25% { transform: scale(1.1); }
+        50% { transform: scale(1); }
+        75% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    p {
+        margin-top: 15px;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .sorry {
+        margin-top: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    audio {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /* Floating hearts background */
+    .hearts span {
+        position: absolute;
+        bottom: -50px;
+        font-size: 20px;
+        animation: float 8s linear infinite;
+        opacity: 0.8;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-110vh) scale(1.5);
+            opacity: 0;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="hearts">
+    <span style="left:10%; animation-delay:0s;">❤️</span>
+    <span style="left:30%; animation-delay:2s;">💖</span>
+    <span style="left:50%; animation-delay:4s;">💕</span>
+    <span style="left:70%; animation-delay:1s;">💘</span>
+    <span style="left:90%; animation-delay:3s;">💗</span>
+</div>
+
+<div class="container">
+    <div class="heart">❤️</div>
+
+    <h1>I Love You, Tithi 💖</h1>
+
+    <div class="sorry">
+        <p>
+            I’m really sorry, my love 🥺💔  
+            I’m sorry for irritating you and for being rude to you  
+            and also to your female best friend 😔🙏  
+            I never meant to hurt you.
+        </p>
+
+        <p>
+            Please forgive me 💕  
+            Your smile means everything to me 🌸
+        </p>
+
+        <p>
+            Come online soon, Tithi 🥹💌  
+            I’m waiting for you ❤️
+        </p>
+    </div>
+
+    <audio controls autoplay loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Love You Tithi ❤️</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 600px;
+        z-index: 2;
+    }
+
+    .heart {
+        font-size: 22vw;
+        color: red;
+        animation: heartbeat 1.5s infinite;
+        line-height: 1;
+    }
+
+    @keyframes heartbeat {
+        0% { transform: scale(1); }
+        25% { transform: scale(1.1); }
+        50% { transform: scale(1); }
+        75% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    p {
+        margin-top: 15px;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .sorry {
+        margin-top: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    audio {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /* Floating hearts background */
+    .hearts span {
+        position: absolute;
+        bottom: -50px;
+        font-size: 20px;
+        animation: float 8s linear infinite;
+        opacity: 0.8;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-110vh) scale(1.5);
+            opacity: 0;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="hearts">
+    <span style="left:10%; animation-delay:0s;">❤️</span>
+    <span style="left:30%; animation-delay:2s;">💖</span>
+    <span style="left:50%; animation-delay:4s;">💕</span>
+    <span style="left:70%; animation-delay:1s;">💘</span>
+    <span style="left:90%; animation-delay:3s;">💗</span>
+</div>
+
+<div class="container">
+    <div class="heart">❤️</div>
+
+    <h1>I Love You, Tithi 💖</h1>
+
+    <div class="sorry">
+        <p>
+            I’m really sorry, my love 🥺💔  
+            I’m sorry for irritating you and for being rude to you  
+            and also to your female best friend 😔🙏  
+            I never meant to hurt you.
+        </p>
+
+        <p>
+            Please forgive me 💕  
+            Your smile means everything to me 🌸
+        </p>
+
+        <p>
+            Come online soon, Tithi 🥹💌  
+            I’m waiting for you ❤️
+        </p>
+    </div>
+
+    <audio controls autoplay loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Love You Tithi ❤️</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 600px;
+        z-index: 2;
+    }
+
+    .heart {
+        font-size: 22vw;
+        color: red;
+        animation: heartbeat 1.5s infinite;
+        line-height: 1;
+    }
+
+    @keyframes heartbeat {
+        0% { transform: scale(1); }
+        25% { transform: scale(1.1); }
+        50% { transform: scale(1); }
+        75% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    p {
+        margin-top: 15px;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .sorry {
+        margin-top: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    audio {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /* Floating hearts background */
+    .hearts span {
+        position: absolute;
+        bottom: -50px;
+        font-size: 20px;
+        animation: float 8s linear infinite;
+        opacity: 0.8;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-110vh) scale(1.5);
+            opacity: 0;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="hearts">
+    <span style="left:10%; animation-delay:0s;">❤️</span>
+    <span style="left:30%; animation-delay:2s;">💖</span>
+    <span style="left:50%; animation-delay:4s;">💕</span>
+    <span style="left:70%; animation-delay:1s;">💘</span>
+    <span style="left:90%; animation-delay:3s;">💗</span>
+</div>
+
+<div class="container">
+    <div class="heart">❤️</div>
+
+    <h1>I Love You, Tithi 💖</h1>
+
+    <div class="sorry">
+        <p>
+            I’m really sorry, my love 🥺💔  
+            I’m sorry for irritating you and for being rude to you  
+            and also to your female best friend 😔🙏  
+            I never meant to hurt you.
+        </p>
+
+        <p>
+            Please forgive me 💕  
+            Your smile means everything to me 🌸
+        </p>
+
+        <p>
+            Come online soon, Tithi 🥹💌  
+            I’m waiting for you ❤️
+        </p>
+    </div>
+
+    <audio controls autoplay loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+</body>
+</html>
+ 
